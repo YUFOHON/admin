@@ -17,10 +17,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-console.log("", useGetKpisQuery);
-type Props = {};
+// console.log("", useGetKpisQuery);
+// type Props = {};
 
-const Row1 = (props: Props) => {
+const Row1 = () => {
   const { palette } = useTheme();
   const { data } = useGetKpisQuery();
   // console.log("🚀 ~ file: Row1.tsx:7 ~ Row1 ~ data:", data);
